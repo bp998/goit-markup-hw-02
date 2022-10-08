@@ -1,0 +1,20 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-page-button {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  font-size: 26px;
+}
+
+.blue-text {
+  color: rgba(33, 150, 243, 1);
+}
+
+.navigation-buttons {
+  list-style-type: none;
+  text-decoration: none;
+}
