@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a:visited {
+  color: black;
+}
+
+.main-page-button {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.blue-text {
+  color: rgba(33, 150, 243, 1);
+}
+
+.list-styling {
+  list-style-type: none;
+}
+
+.navigation-buttons {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+}
+
+.header-address {
+  text-decoration: none;
+  color: rgba(117, 117, 117, 1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+}
+
+.main-button {
+  background-color: rgba(245, 244, 250, 1);
+  border: none;
+  color: rgba(33, 33, 33, 1);
+}
+
+a:hover {
+  color: rgba(33, 150, 243, 1);
+}
+
+button:hover {
+  color: white;
+  background-color: rgba(33, 150, 243, 1);
+}
