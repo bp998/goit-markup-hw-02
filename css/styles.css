@@ -34,6 +34,7 @@ body {
 
 .navigation-buttons {
   text-decoration: none;
+  color: rgba(33, 33, 33, 1);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -41,7 +42,7 @@ body {
 }
 
 .navigation-buttons:visited {
-  color: black;
+  color: rgba(33, 33, 33, 1);
 }
 
 .navigation-buttons:hover,
