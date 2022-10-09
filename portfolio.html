@@ -15,7 +15,7 @@
   </head>
   <body>
     <header>
-      <a class="main-page-button" href="index.html"
+      <a class="webstudio-top" href="index.html"
         ><span class="blue-text">Web</span>Studio</a
       >
       <nav>
@@ -47,24 +47,25 @@
     <main>
       <div>
         <ul class="list-styling">
-          <li><button class="main-button" type="button">Wszystkie</button></li>
-          <li><button class="main-button" type="button">Strony</button></li>
-          <li><button class="main-button" type="button">Aplikacje</button></li>
-          <li><button class="main-button" type="button">Dizajn</button></li>
-          <li><button class="main-button" type="button">Marketing</button></li>
+          <li><button class="buttons" type="button">Wszystkie</button></li>
+          <li><button class="buttons" type="button">Strony</button></li>
+          <li><button class="buttons" type="button">Aplikacje</button></li>
+          <li><button class="buttons" type="button">Dizajn</button></li>
+          <li><button class="buttons" type="button">Marketing</button></li>
         </ul>
       </div>
       <div>
-        <ul>
+        <ul class="list-styling">
           <li>
-            <figure>
+            <figure class="figure-css">
               <img
+                class="main-images"
                 src="./images/technocrack.jpg"
                 alt="Strona internetowa Technocrack"
               />
               <figcaption>
-                <h4>Technocrack</h4>
-                <p>Strona internetowa</p>
+                <h4 class="images-header">Technocrack</h4>
+                <p class="images-subtitle">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -75,8 +76,8 @@
                 alt="Grafika drużyn NBA"
               />
               <figcaption>
-                <h4>Grafika New Orlean vs Golden Star</h4>
-                <p>Dizajn</p>
+                <h4 class="images-header">Grafika New Orlean vs Golden Star</h4>
+                <p class="images-subtitle">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -87,8 +88,8 @@
                 alt="Restauracja Seafood"
               />
               <figcaption>
-                <h4>Restauracja Seafood</h4>
-                <p>Aplikacja</p>
+                <h4 class="images-header">Restauracja Seafood</h4>
+                <p class="images-subtitle">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -96,8 +97,8 @@
             <figure>
               <img src="./images/projekt-prime.jpg" alt="Projekt Prime" />
               <figcaption>
-                <h4>Projekt Prime</h4>
-                <p>Marketing</p>
+                <h4 class="images-header">Projekt Prime</h4>
+                <p class="images-subtitle">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -105,8 +106,8 @@
             <figure>
               <img src="./images/projekt-boxes.jpg" alt="Projekt Boxes" />
               <figcaption>
-                <h4>Projekt Boxes</h4>
-                <p>Aplikacja</p>
+                <h4 class="images-header">Projekt Boxes</h4>
+                <p class="images-subtitle">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -117,8 +118,8 @@
                 alt="Strona internetowa"
               />
               <figcaption>
-                <h4>Inspiration has no Borders</h4>
-                <p>Strona internetowa</p>
+                <h4 class="images-header">Inspiration has no Borders</h4>
+                <p class="images-subtitle">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -129,8 +130,8 @@
                 alt="Magazyn Limited Edition"
               />
               <figcaption>
-                <h4>Magazyn Limited Edition</h4>
-                <p>Dizajn</p>
+                <h4 class="images-header">Magazyn Limited Edition</h4>
+                <p class="images-subtitle">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -138,8 +139,8 @@
             <figure>
               <img src="./images/projekt-lab.jpg" alt="Projekt LAB" />
               <figcaption>
-                <h4>Projekt LAB</h4>
-                <p>Marketing</p>
+                <h4 class="images-header">Projekt LAB</h4>
+                <p class="images-subtitle">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -147,26 +148,32 @@
             <figure>
               <img src="./images/growing-business.jpg" alt="Growing Business" />
               <figcaption>
-                <h4>Growing Business</h4>
-                <p>Aplikacja</p>
+                <h4 class="images-header">Growing Business</h4>
+                <p class="images-subtitle">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
         </ul>
       </div>
     </main>
-    <footer>
-      <p><span>Web</span>Studio</p>
-      <ul>
-        <li><address>m. Warszawa, Aleje Jerozolimskie 21</address></li>
+    <footer class="black-background">
+      <p class="webstudio-bottom"><span class="blue-text">Web</span>Studio</p>
+      <ul class="list-styling">
         <li>
-          <address>
-            <a href="mailto:info@example.com">info@example.com</a>
+          <address class="footer-address">
+            m. Warszawa, Aleje Jerozolimskie 21
           </address>
         </li>
         <li>
           <address>
-            <a href="tel:+48111111111">+48 111 111 111</a>
+            <a class="footer-mail" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </address>
+        </li>
+        <li>
+          <address>
+            <a class="footer-tel" href="tel:+48111111111">+48 111 111 111</a>
           </address>
         </li>
       </ul>

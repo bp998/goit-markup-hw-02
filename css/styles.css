@@ -1,12 +1,13 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: rgba(236, 236, 236, 1);
 }
 
-a:visited {
-  color: black;
+.black-background {
+  background-color: rgba(47, 48, 58, 1);
 }
 
-.main-page-button {
+.webstudio-top {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   font-weight: 700;
@@ -26,32 +27,217 @@ a:visited {
 
 .navigation-buttons {
   text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16.41px;
+  line-height: 16px;
   letter-spacing: 0.02em;
+}
+
+.navigation-buttons:visited {
+  color: black;
+}
+
+.navigation-buttons:hover,
+.header-address:hover {
+  color: rgba(33, 150, 243, 1);
 }
 
 .header-address {
   text-decoration: none;
   color: rgba(117, 117, 117, 1);
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16.41px;
+  line-height: 16px;
   letter-spacing: 0.02em;
 }
 
-.main-button {
+.buttons {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
   background-color: rgba(245, 244, 250, 1);
   border: none;
   color: rgba(33, 33, 33, 1);
+  border-radius: 4px;
 }
 
-a:hover {
-  color: rgba(33, 150, 243, 1);
-}
-
-button:hover {
+.buttons:hover {
   color: white;
   background-color: rgba(33, 150, 243, 1);
+  cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.main-page-button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+
+.main-page-button:hover {
+  cursor: pointer;
+}
+
+.main-page-button-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.main-images {
+  height: 294px;
+}
+
+.figure-css {
+  border: 1px solid #eeeeee;
+}
+
+.images-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.images-subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.webstudio-bottom {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.footer-address {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.footer-mail {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.box-styling {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+}
+
+.central-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.lorem-topic {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.lorem-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.main-page-headers {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-member-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-member-position {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
