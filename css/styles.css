@@ -1,24 +1,29 @@
 :root {
-  --background-color: rgba(236, 236, 236, 1);
+  --background-color: rgba(255, 255, 255, 1);
+  --main-page-text-header-color: rgba(33, 33, 33, 1);
+  --main-page-text-color: rgba(117, 117, 117, 1);
   --brand-color: rgba(33, 150, 243, 1);
-  --background-color2: rgba(47, 48, 58, 1);
+  --second-background-color: rgba(47, 48, 58, 1);
+  --header-address-color: rgba(117, 117, 117, 1);
+  --footer-address-color: rgba(255, 255, 255, 0.6);
+  --button-color: rgba(245, 244, 250, 1);
+  --logo-color: rgba(0, 0, 0, 1);
 }
 
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: rgba(33, 33, 33, 1);
   background-color: var(--background-color);
 }
 
 .black-background {
-  background-color: var(--background-color2);
+  background-color: var(--second-background-color);
 }
 
 .webstudio-top {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
-  color: black;
+  color: var(--logo-color);
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -32,22 +37,21 @@ body {
   list-style-type: none;
 }
 
-.navigation-buttons {
+.navigation-button {
   text-decoration: none;
-  color: rgba(33, 33, 33, 1);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.navigation-buttons:visited {
-  color: rgba(33, 33, 33, 1);
+.navigation-button:visited {
+  color: inherit;
 }
 
-.navigation-buttons:hover,
+.navigation-button:hover,
 .header-address:hover,
-.navigation-buttons:focus,
+.navigation-button:focus,
 .header-address:focus {
   color: var(--brand-color);
   outline: none;
@@ -55,26 +59,26 @@ body {
 
 .header-address {
   text-decoration: none;
-  color: rgba(117, 117, 117, 1);
+  color: var(--header-address-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.buttons {
-  font-family: "Roboto";
+.button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  background-color: rgba(245, 244, 250, 1);
+  background-color: var(--button-color);
   border: none;
   border-radius: 4px;
 }
 
-.buttons:hover,
-.buttons:focus {
-  color: white;
+.button:hover,
+.button:focus {
+  color: var(--background-color);
   background-color: var(--brand-color);
   cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -84,10 +88,12 @@ body {
 }
 
 .main-page-button {
-  background: rgba(245, 244, 250, 1);
+  background-color: var(--brand-color);
+  color: var(--background-color);
   border: none;
   border-radius: 4px;
-  font-family: "Roboto";
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -99,39 +105,35 @@ body {
 .main-page-button:hover,
 .main-page-button:focus {
   cursor: pointer;
-  background-color: var(--brand-color);
-  color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  outline: none;
 }
 
-.main-images {
+.main-image {
   height: 294px;
 }
 
-.images-header {
+.image-header {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.images-subtitle {
+.image-subtitle {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-page-text-color);
 }
 
 .webstudio-bottom {
   font-family: "Raleway", sans-serif;
-  color: rgba(255, 255, 255, 1);
+  color: var(--background-color);
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
 .footer-address {
-  color: rgba(255, 255, 255, 1);
+  color: var(--background-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -143,7 +145,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-address-color);
 }
 
 .footer-tel {
@@ -151,7 +153,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-address-color);
   text-decoration: none;
 }
 
@@ -173,7 +175,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 .lorem-topic {
@@ -181,22 +183,22 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--main-page-text-header-color);
 }
 
 .lorem-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-page-text-color);
 }
 
-.main-page-headers {
+.main-page-header {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-page-text-header-color);
 }
 
 .team-member-name {
@@ -205,7 +207,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-page-text-header-color);
 }
 
 .team-member-position {
@@ -213,5 +215,5 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-page-text-color);
 }
