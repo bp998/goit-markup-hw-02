@@ -1,5 +1,5 @@
 :root {
-  --background-color: rgba(255, 255, 255, 1);
+  --white-color: rgba(255, 255, 255, 1);
   --main-page-text-header-color: rgba(33, 33, 33, 1);
   --main-page-text-color: rgba(117, 117, 117, 1);
   --brand-color: rgba(33, 150, 243, 1);
@@ -12,8 +12,9 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   color: rgba(33, 33, 33, 1);
-  background-color: var(--background-color);
+  background-color: var(--white-color);
 }
 
 .black-background {
@@ -79,7 +80,7 @@ body {
 
 .button:hover,
 .button:focus {
-  color: var(--background-color);
+  color: var(--white-color);
   background-color: var(--brand-color);
   cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -90,7 +91,7 @@ body {
 
 .main-page-button {
   background-color: var(--brand-color);
-  color: var(--background-color);
+  color: var(--white-color);
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -127,22 +128,25 @@ body {
 
 .webstudio-bottom {
   font-family: "Raleway", sans-serif;
-  color: var(--background-color);
+  color: var(--white-color);
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
+.address-styling {
+  font-style: inherit;
+}
+
 .footer-address {
-  color: var(--background-color);
-  font-style: normal;
+  color: var(--white-color);
+  font-style: inherit;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 .footer-mail {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -150,7 +154,6 @@ body {
 }
 
 .footer-tel {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -176,7 +179,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--background-color);
+  color: var(--white-color);
 }
 
 .lorem-topic {
