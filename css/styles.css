@@ -15,7 +15,7 @@ body {
   background-color: var(--white-color);
 }
 
-.black-background {
+.background-block {
   background-color: var(--second-background);
 }
 
@@ -132,10 +132,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.address-styling {
-  font-style: inherit;
-}
-
 .footer-address {
   color: var(--white-color);
   font-style: inherit;
@@ -144,19 +140,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-.footer-mail {
+.address-styling {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-link-color);
-}
-
-.footer-tel {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--second-link-color);
-  text-decoration: none;
 }
 
 .decoration-none {
